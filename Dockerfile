@@ -51,3 +51,4 @@ VOLUME ["/etc/nginx/stream.d"]
 
 ENTRYPOINT ["/app/docker-entrypoint.sh"]
 CMD ["forego", "start", "-r"]
+
