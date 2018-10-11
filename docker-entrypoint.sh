@@ -1,6 +1,8 @@
 #!/bin/bash
 set -e
 
+sed -i 's/client_max_body_size 4096M;//g' /etc/nginx/conf.d/default.conf
+
 # Warn if the DOCKER_HOST socket does not exist
 if [[ $DOCKER_HOST = unix://* ]]; then
 	socket_file=${DOCKER_HOST#unix://}
