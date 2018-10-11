@@ -69,4 +69,3 @@ httpd
 
 The other options: https://github.com/Neilpang/nginx-proxy/blob/upstream/README.md
 
-1
