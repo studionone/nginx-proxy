@@ -1,3 +1,5 @@
+**Notice:** This project has been deprecated. Please use [neilpang/nginx-proxy](https://github.com/neilpang/nginx-proxy) instead
+
 Forked from https://github.com/jwilder/nginx-proxy
 
 A new env varaible `ENABLE_ACME` is added to use acme.sh to generate free ssl cert from letsencrypt.
